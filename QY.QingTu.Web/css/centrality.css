@@ -1,0 +1,84 @@
+@charset "utf-8";
+@import url('common.css');
+.bc_cont{ width:100%;padding: 20px 0% 46px 4%;box-sizing: border-box;}
+.bcinfo{width: 100%;min-width: 1100px;}
+.risk_tit{margin: 25px 2% 15px 0%}
+.risk_tit h3{font: 600 20px/20px microsoft yahei;color: #6d8398;}
+.w49{width: 45%;}
+.infoBox{background: #fff;height:330px; position:relative;}
+.infoBox:hover{-webkit-box-shadow: 2px 2px 6px rgba(0,0,0,0.1);  -moz-box-shadow: 2px 2px 6px rgba(0,0,0,0.1);  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);}
+.BC_infotab{ height:200px;}
+.edit{ width: 23px; height: 24px; position: absolute; top: 20px; right: 20px; background: url(../images/bc/edit.png) 0px -63px no-repeat; cursor: pointer;}
+.edit:hover{background: url(../images/bc/edit.png) 0px 0px no-repeat;}
+.edit2{ width: 23px; height: 24px; position: absolute; top: 20px; right: 20px; background: url(../images/bc/edit.png) 0px -125px no-repeat; cursor: pointer;}
+.infoimg{ height: 70px; font:600 20px/70px  "Microsoft yahei"; color:#343434; margin-left:4%;}
+.infoimg_s1{ background: url(../images/bc/infoicon.png) 0px 22px no-repeat; }
+.infoimg_s2{ background: url(../images/bc/infoicon.png) 0px -106px no-repeat;}
+.infoimg_s3{ background: url(../images/bc/infoicon.png) 0px -232px no-repeat;}
+.infoimg_s4{ background: url(../images/bc/infoicon.png) 0px -352px no-repeat;}
+.infotab_tit{ font: 16px/40px  "Microsoft yahei"; color:#2b3f50;text-align:left;vertical-align:top;}
+.infotab_tit1{ background: url(../images/bc/infotab.png) 0px 10px no-repeat; padding-left: 30px;}
+.infotab_tit2{ background: url(../images/bc/infotab.png) 0px -49px no-repeat; padding-left: 30px;}
+.infotab_tit3{ background: url(../images/bc/infotab.png) 0px -107px no-repeat; padding-left: 30px;}
+.infotab_tit4{ background: url(../images/bc/infotab.png) 0px -164px no-repeat; padding-left: 30px;}
+.infotab_tit5{ background: url(../images/bc/infotab.png) 0px -222px no-repeat; padding-left: 30px;}
+.infotab_tit6{ font: 20px/40px "Microsoft yahei"; color: #2b3f50; padding-left: 10px;}
+.infotab_tit7{ background: url(../images/bc/infotab.png) 0px -318px no-repeat; padding-left: 30px;}
+.infotab_tit8{ background: url(../images/bc/infotab.png) 0px -372px no-repeat; padding-left: 30px;}
+.infotab_tit9{ background: url(../images/bc/infotab.png) 0px -430px no-repeat; padding-left: 30px;}
+.infotab_tit10{font: 600 18px/40px "Microsoft yahei"; color: #2b3f50;}
+.infotab_tit11{ background: url(../images/bc/infotab.png) 0px -489px no-repeat; padding-left: 30px;}
+.infotab_tit12{ background: url(../images/bc/infotab.png) 0px -578px no-repeat; padding-left: 30px;}
+.infotab_tit13{ background: url(../images/bc/infotab.png) 0px -637px no-repeat; padding-left: 30px;}
+.infotab_text{ font: 16px/40px  "Microsoft yahei"; color:#333; overflow:hidden; text-align:left;word-break:break-all;vertical-align: top;}
+.span_blue_btnlg{ font: 14px/32px  "Microsoft yahei"; color:#54adff; border:1px solid #54adff; padding:5px 10px; border-radius:4px; cursor:pointer; margin-left:30px;}
+.span_gray_btnlg{ font: 14px/32px  "Microsoft yahei"; color:#fff; padding:5px 16px; border-radius:4px; margin-left:30px; background:#878585;}
+.span_blue_btnlg:hover{ color:#fff; background:#54adff; border:1px solid #54adff;-webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.2);  -moz-box-shadow: 2px 2px 2px rgba(0,0,0,0.2);  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);}
+.infoBox_l{ margin-left:2%;}
+.infoBox_t{ margin-top:30px;}
+.infoBox_t ul a{float: left;}
+.infotab_red{ font: 20px/40px  "Microsoft yahei"; color:#18559a;}
+.infotab_blue{ font: 16px/40px  "Microsoft yahei"; color:#f96042;}
+.infotab_green{ font: 16px/40px  "Microsoft yahei"; color:#ffb04a;}
+.infotab_password a{ font: 14px/40px  "Microsoft yahei"; color:#3a97ff; margin-right:20px;}
+.infotab_password a:hover{ color:#096cdb;}
+.recharge{width: 102px; height: 38px; font:14px/34px  "Microsoft yahei"; text-align: center; background:url(../images/bc/bc_button.png) no-repeat 0px 0px; color:#fff; float: left; cursor: pointer; margin-top: 20px;}
+.recharge:hover{ background:url(../images/bc/bc_button.png) no-repeat 0px -155px;}
+.withdraw{width: 102px; height: 38px; font:14px/34px  "Microsoft yahei"; text-align: center; background:url(../images/bc/bc_button.png) no-repeat 0px -78px; color:#fff; float: left; cursor: pointer; margin:20px 0 0 36px;}
+.withdraw:hover{ background:url(../images/bc/bc_button.png) no-repeat 0px -233px;}
+.infoBox ul{ margin-left:14%;}
+.infoBox ul a li{ width:84px; height:53px; margin-left:2%; border:1px solid #dfe4ec; float:left; padding:45px 0 0 0; text-align:center; font: 14px/20px "Microsoft yahei";color: #333;}
+.infoimg2{ font:600 18px/20px  "Microsoft yahei"; color:#2b3f50; margin-left:14%; margin-bottom:25px;}
+.infoBox ul li p span{ color:#ff0000;}
+.infotab_li1{ background:url(../images/bc/iforder.png) no-repeat 30px 27px; cursor:pointer;}
+.infotab_li2{ background:url(../images/bc/iforder.png) no-repeat 30px -62px; cursor:pointer;}
+.infotab_li3{ background:url(../images/bc/iforder.png) no-repeat 30px -172px; cursor:pointer;}
+.infotab_li4{ background:url(../images/bc/iforder.png) no-repeat 30px -274px; cursor:pointer;}
+.infotab_li1:hover{ background:#54b6ff url(../images/bc/iforder_on.png) no-repeat 30px 27px; cursor:pointer;}
+.infotab_li2:hover{ background:#54b6ff url(../images/bc/iforder_on.png) no-repeat 30px -62px; cursor:pointer;}
+.infotab_li3:hover{ background:#54b6ff url(../images/bc/iforder_on.png) no-repeat 30px -172px; cursor:pointer;}
+.infotab_li4:hover{ background:#54b6ff url(../images/bc/iforder_on.png) no-repeat 30px -274px; cursor:pointer;}
+
+.infotab_li1:hover{ color:#fff;}
+.infotab_li2:hover{ color:#fff;}
+.infotab_li3:hover{ color:#fff;}
+.infotab_li4:hover{ color:#fff;}
+.infotab_li1:hover span{ color:#fff;}
+.infotab_li2:hover span{ color:#fff;}
+.infotab_li3:hover span{ color:#fff;}
+.infotab_li4:hover span{ color:#fff;}
+
+.infotab_li2,.infotab_li3{ margin-left:50px !important;} 
+/********环形图*******/
+.chart {position: absolute;width: 170px;height: 170px;top: 42%;left: 66%;margin: -80px 0 0 0;}
+.doughnutTip {position: absolute;min-width: 30px;max-width: 300px;padding: 5px 15px;border-radius: 1px;background: rgba(0,0,0,.8);color: #ddd;font-size: 17px;text-shadow: 0 1px 0 #000;text-transform: uppercase;text-align: center;line-height: 1.3;letter-spacing: .06em;box-shadow: 0 1px 3px rgba(0,0,0,0.5);pointer-events: none;}
+.doughnutTip:after {position: absolute;left: 50%;bottom: -6px;content: "";height: 0;margin: 0 0 0 -6px;border-right: 5px solid transparent;border-left: 5px solid transparent;border-top: 6px solid rgba(0,0,0,.7);line-height: 0;}
+.doughnutSummary {position: absolute;top: 50%;left: 50%;color: #999;text-align: center;cursor: default;}
+.doughnutSummaryTitle {position: absolute;top: 50%;width: 100%;margin-top: -27%;font-size: 14px;letter-spacing: .06em;}
+.doughnutSummaryNumber {position: absolute;top: 50%;width: 100%;font-size: 16px;}
+.chart path:hover { opacity: .65; }
+.infotab_hg{ line-height: 30px !important; padding-top: 5px;;}
+/*资金刷新*/
+.renovate{font: 14px/14px "Microsoft yahei";color: #54adff;border: 1px solid #54adff;padding: 4px 10px 6px 26px;border-radius: 4px;cursor: pointer; background: url(../images/bc/renovate.png) no-repeat center; background-position-x: 10px; float: left; margin:7px 0 0 20px;}
+.renovate:hover{ color: #fff; background: #54adff url(../images/bc/renovate_on.png) no-repeat center; background-position-x: 10px;-webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.2);  -moz-box-shadow: 2px 2px 2px rgba(0,0,0,0.2);  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);}
+.renovate_cl{width: 66px; font: 14px/14px "Microsoft yahei";color: #fff;border: 1px solid #d1d1d1;padding: 4px 10px 6px 26px;border-radius: 4px; background: #d1d1d1 url(../images/bc/renovate_cl.png) no-repeat center; background-position-x: 10px; float: left; margin:7px 0 0 20px; cursor: no-drop;}

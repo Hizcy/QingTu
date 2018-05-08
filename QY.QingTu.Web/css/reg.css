@@ -1,0 +1,279 @@
+﻿@charset "utf-8";
+@import url('common.css');
+
+/****注册第一步****/
+.bgnone{ background: none !important;}
+.bodybg{background:#fafafa;}
+.hg100{height:100%;}
+.procurement_cont{width:1198px;border:1px solid #dbe0e4;background:#fff;border-radius:6px;}
+.reg_tit{width:1200px;margin:30px auto 10px auto;position:relative;}
+.reg_tit h3{font:600 20px/20px microsoft yahei;color:#6d8398;margin-bottom:20px;}
+.reg_tit h3 span{float:right;font-size:16px;font-weight:normal;}
+.reg_tit h3 span:hover a{color:#0889ff;}
+.reg_tit h3 span a{color:#40a4ff;}
+.reg_tit h3 span i{background:url(../images/reg/icon.png) no-repeat;padding:0 10px;margin-left:5px;}
+.reg_tit h3 span:hover i{background:url(../images/reg/icon.png) no-repeat 0 -73px;padding:0 10px;margin-left:5px;}
+.reg_slt_way{margin:26px 0 0 26px;}
+.reg_slt_way li{width:133px;height:38px;font:16px/38px Microsoft yahei;text-align:center;color:#54adff;float:left;
+border:1px solid #54adff;cursor:pointer;}
+.reg_slt_speli{background:#54adff;color:#fff !important;}
+.reg_order_cont1{width:1143px;background:url(../images/procurement/tribg_1.png) no-repeat;
+margin-top:10px;padding:10px 0 60px 0;}
+.reg_order_cont2{width:1143px;background:url(../images/procurement/tribg_2.png) no-repeat;
+margin-top:10px;padding:10px 0 60px 0;}
+.reg_kxia{border:1px solid #deefff;border-top:0;padding-top:46px;padding-left: 300px;}
+.reg_table{width:700px;margin-bottom: 20px;}
+.reg_table td{height:40px;line-height:40px;color:#6d869c;font-size:16px;padding-bottom:5px;}
+.pay_tit_r{text-align:right;width:100px;padding-right:10px;}
+.reg_below_note{position:absolute;top:2px;font:14px/18px Microsoft yahei;}
+.reg_below_note span{color:#ff5b5a;padding: 0px 4px;}
+.reg_ntit_p{position:relative;}
+.reg_ntit_p input{height:20px;;border:1px solid #d2d2d2;color:#575757;border-radius:6px;padding:10px 0 10px 10px;line-height: 20px;}
+.reg_ntit_p span{position:absolute;font-size:14px;color:#ccc;top:1px;left:15px;}
+.reg_text1{width:318px;}
+.reg_text2{width:188px;}
+.reg_verify_btn{float:left;height:42px;width:120px;border-radius:6px;background:#54adff;text-align:center;color:#fff;margin:1px 0 0 10px;cursor:pointer;font:14px Microsoft yahei;}
+.reg_verify_btn:hover{background: #349eff;}
+.reg_verfiy_gray{background:#e2e2e2 !important;color:#a9a9a9 !important;cursor:not-allowed;}
+.reg_sbtn_div{width:183px;padding-bottom:20px;}
+.reg_sbtn{background:url(../images/procurement/combtn.png) no-repeat -290px -47px;width:183px;padding-bottom:8px;
+height:47px;font:18px Microsoft yahei;font-weight:600;color:#fff;cursor:pointer;}
+.reg_sbtn:hover{background:url(../images/procurement/combtn.png) no-repeat -290px -210px;}
+.reg_sbtn_gray{background:url(../images/reg/retbtn.png) no-repeat 0px 0px;width:183px;padding-bottom:8px;
+height:47px;font:18px Microsoft yahei;font-weight:600;color:#b2b2b2;cursor:not-allowed;}
+.reg_pnote{font:14px/40px Microsoft yahei;color:#ff5b5a;margin-left:20px;}
+.p_right{background:url(../images/procurement/wrnicon.png) no-repeat -10px -67px;}
+.p_wrong{background:url(../images/procurement/wrnicon.png) no-repeat -10px -4px;padding-left:28px;}
+.login_copyright{text-align:center;color:#0f3356;font-size:14px;line-height:30px;}
+.pl180{padding-left: 180px;margin: 0 !important;}
+.below_css td{position: relative;height: 22px !important;line-height: 22px !important;}
+/*************注册基本信息************/
+.reg_step{width: 1200px;padding:30px 0; text-align:center;}
+.reg_cont{width: 1198px;border: 1px solid #dbe0e4;background:#fff;border-radius:6px;}
+.reg_basic{width:800px;margin:20px 0 0 330px;}
+.reg_basic td{height:40px;line-height:40px;color:#6d869c;font-size:16px;padding-bottom:20px;}
+.reg_r{width:125px;text-align:right;padding-right:15px;}
+.regone_text{width:338px;}
+.regone_em{color:#ff7877;font-style:normal;}
+.regone_gray{color:#646464;top:10px;position:absolute;}
+.reg_u{right:15px;}
+.reg_z{left:0;}
+.reg_zhu{font:14px/20px Microsoft yahei;color:#7f93a8;margin-top:5px;}
+.regone_smtext{width:210px;}
+.reg_get_vcode{width:118px;height:42px;border-radius:6px;font:14px/42px Microsoft yahei;color:#fff;background:#54adff;
+float:left;margin-left:10px;text-align:center;cursor:pointer;}
+.b_vcode_gray{background: #e2e2e2 !important;color: #a9a9a9 !important;cursor: not-allowed;}
+.reg_get_vcode:hover{background:#349eff;}
+.reg_agree{font:14px/40px Microsoft yahei;background:url(../images/reg/sicon.png) no-repeat -1px 12px;padding-left:25px;
+cursor:pointer;}
+.agree_on{background:url(../images/reg/sicon.png) no-repeat 0 -45px !important;}
+.reg_blank40{width:100%;height:40px;}
+
+/*************注册上传信息************/
+.reg_upload{width:800px;margin:50px 0 0 300px;}
+.reg_upload td{height:40px;line-height:40px;color:#6d869c;font-size:16px;padding-bottom:20px;}
+.reg_ru{width:160px;text-align:right;padding-right:15px;}
+.upload_btn{width:122px;height:20px; background:url(../images/reg/graybtn.png) no-repeat;text-align:center;float:right;margin-right:10px;font-size:14px;padding:12px 0px 12px 0px;line-height: 20px;}
+.upload_btn:hover{background:url(../images/reg/graybtn.png) no-repeat 10px -44px;}
+.upload_ff{width:122px;height:44px;position:absolute;top:0px;right:25px;opacity:0;filter:alpha(opacity=0);cursor:pointer;}/*两行文字*/
+.upload_ff2{width:122px;height:44px;position:absolute;top:11px;right:25px;opacity:0;filter:alpha(opacity=0);cursor:pointer;}/*三行文字*/
+.upload_ff3{width:122px;height:44px;position:absolute;top:22px;right:25px;opacity:0;filter:alpha(opacity=0);cursor:pointer;}/*四行文字*/
+.upload_note{font:12px/22px Microsoft yahei;color:#909090;}
+.reg_san_s{background:url(../images/reg/sicon.png) no-repeat 0 -95px;padding-left:28px;float:left;cursor:pointer;}
+.left30{margin-left:30px;}
+.san_on{background:url(../images/reg/sicon.png) no-repeat 0 -151px !important;}
+.reg_return{background:url(../images/reg/retbtn.png) no-repeat 0 0;width:180px;text-align:center;
+height:47px;font:600 18px/42px Microsoft yahei;color:#b2b2b2;cursor:pointer;float:left;margin-left:410px;}
+.reg_return:hover{background:url(../images/reg/retbtn.png) no-repeat 0 -47px;}
+
+/*************注册完善信息************/
+.pp_gray{color:#646464;line-height:22px;}
+.pp_u_note{line-height:22px;color:#7f93a8;font-size:14px;}
+.pp_pos{position:absolute;top:50px;left:0px;width:400px;}
+.pp_slt{border-radius:6px;border:1px solid #d2d2d2;height:40px;padding-left:5px;
+width:106px;font:14px/34px Microsoft yahei;color:#646464;}
+.left10{margin-left:10px;}
+.reg_blank20{width:100%;height:20px;}
+
+/*************注册基本信息-个人************/
+.person_gray{color:#646464;}
+.verify_note_p{font:14px/20px Microsoft yahei;position:absolute;top:48px;left:0;width:600px;}
+.verify_note_p span{color:#ff5b5a;padding: 0px 4px;}
+/*注册协议*/
+.body_gray{width:100%;height:100%;background:#000;opacity:0.3;filter:alpha(opacity=30);position:fixed;left:0;top:0;z-index:99;}
+.agree_panel{width:820px;height:500px;background:#000;opacity:0.1;filter:alpha(opacity=10);position:fixed;left:50%;top:50%;margin-left:-410px;margin-top:-250px;
+z-index:100;}
+.agree_panel_in{width:800px;height:480px;background:#fff;position:fixed;left:50%;top:50%;margin-left:-400px;margin-top:-240px;
+z-index:101;}
+.agree_clbtn{background:url(../images/reg/clbtn.png) no-repeat;width:16px;height:16px;float:right;margin:0px 15px 0 0;cursor:pointer;}
+.agree_content{padding:10px 30px;width:740px;height:390px;overflow-y:auto;}
+.agree_panel_in h3{text-align:center;font:16px/26px microsoft yahei;color:#333;margin-top:20px;}
+.agree_panel_in dl dt{font:14px/26px microsoft yahei;color:#444;text-indent: 27px;}
+.agree_panel_in dl dd{font:13px/26px microsoft yahei;color:#898989;text-indent: 27px;}
+
+/********************登录**********************/
+.loginbg{min-width:1366px;min-height:768px;width:auto;height:100%;background: url(../images/reg/bg.jpg) no-repeat; background-size: 100% 100%;}
+.login_c{width: 1140px;height:710px; position: absolute;top: 50%;left: 50%;margin:-314px 0 0 -600px;}
+.login_c_t{width: 1140px;height: 640px;margin: 0 auto;}
+.login_bg{width: 588px;height: 467px;background: url(../images/reg/login_bg.png) no-repeat;float: left;margin-top: 50px;}
+.login_content{ width:362px;  float: right;}
+.logo{ width:254px; height:77px; margin:0 auto; background:url(../images/reg/logo.png) no-repeat top center;}
+.login_box{ width:362px; margin:42px auto 0 auto; background: #fff; padding-bottom: 30px;}
+.user_login{width: 362px;height: 80px;background: url(../images/reg/user_login.png) no-repeat center;}
+.login_prompt_box{width: 302px;height:36px;}
+.login_prompt{height: 42px;line-height: 36px; padding-left: 34px; margin-top:-32px;background-position-y: -282px !important;}
+.note_wrong {color: #e3111e;font-size: 14px;background:url(../images/common/wricon3.png) no-repeat 12px -284px;}
+.login_ntit_p{ width:302px; margin:0 auto; position:relative;}
+.login_code{ width:302px; margin:0 auto; position:relative; height:46px;}
+.login_code img{width: 118px;height: 46px;float: left;cursor: pointer;margin:-45px 0 0 200px;}
+.login_code a{margin:-35px 0 0 360px;float: left;color: #3c7ddb;font-size: 12px;cursor: pointer;}
+.login_user_input{ background:#f0f0f0 url(../images/reg/entry_input.png) no-repeat 24px 12px;}
+.login_pwd{ margin-top:20px;}
+.login_pwd_input{ background:#f0f0f0 url(../images/reg/entry_input.png) no-repeat 24px -57px;}
+.login_ntit_p input{ width:240px; height:44px; font:16px/44px Microsoft yahei; color:#6d869c; padding-left:60px;border-radius: 7px;border: 1px solid #f0f0f0;}
+.login_code input{ width:116px; height:44px; font:16px/44px Microsoft yahei; color:#6d869c; padding-left:60px;border-radius: 7px; float:left;border: 1px solid #f0f0f0;}
+.login_code_input{background: #f0f0f0 url(../images/reg/entry_input.png) no-repeat 24px -264px;}
+.login_ntit_p span,.login_code_span{ position:absolute; left:60px; top:0; font:16px/46px Microsoft yahei; color:#999;}
+.login_sbtn{ width:302px; height:54px; background:url(../images/reg/entry_button.png) no-repeat 0px 0px; cursor:pointer; font:600 20px/48px Microsoft yahei; color:#fff; text-align:center;margin-top: 4px;}
+.login_sbtn:hover{background:url(../images/reg/entry_button.png) no-repeat 0px -181px;}
+/********获得/失去焦点input变化********/
+.login_user_input_b{ background:#f0f0f0 url(../images/reg/entry_input.png) no-repeat 24px -126px !important;border:1px solid #90caff !important;}
+.login_pwd_input_b{ background:#f0f0f0 url(../images/reg/entry_input.png) no-repeat 24px -194px !important;border:1px solid #90caff !important;}
+.login_code_input_b{ background:#f0f0f0 url(../images/reg/entry_input.png) no-repeat 24px -334px !important;border:1px solid #90caff !important;}
+.login_user_input_r{ background:#f0f0f0 url(../images/reg/entry_input.png) no-repeat 24px -404px !important;border:1px solid #e3111e !important;}
+.login_pwd_input_r{ background:#f0f0f0 url(../images/reg/entry_input.png) no-repeat 24px -473px !important;border:1px solid #e3111e !important;}
+.login_code_input_r{ background:#f0f0f0 url(../images/reg/entry_input.png) no-repeat 24px -543px !important;border:1px solid #e3111e !important;}
+/********end  获得/失去焦点input变化********/
+
+/********友情链接********/
+.login_copyright2_box{width: 760px;margin: 0 auto;} 
+.login_copyright{text-align:center;color:#fff;font-size:14px;line-height:30px;} 
+/********end  友情链接********/
+
+
+/********************找回登录（支付）密码**********************/
+.findpwd1_tit{ width: 590px; height: 36px; margin-top: 40px; margin-bottom: 58px; background: url(../images/reg/findpwd1_tit.png) no-repeat;}
+.findpwd2_tit{ width: 590px; height: 36px; margin-top: 40px; margin-bottom: 50px; background: url(../images/reg/findpwd2_tit.png) no-repeat;}
+.h448{ height: 448px;}
+.findpwd_user_p{font:16px/40px Microsoft yahei;color:#646464;}
+.pay_tit_rr{text-align:right;width:140px;padding-right:10px;}
+.pay_tit_rr span{ color: #ff5b5a;}
+.reg_ntit_pp{position:relative;}
+.reg_ntit_pp input{height:20px;border:1px solid #d2d2d2;color:#6d869c;border-radius:6px;padding:10px 0 10px 10px;font-size: 16px;line-height: 20px;}
+.reg_ntit_pp span{position:absolute;font-size:14px;color:#ccc;top:0px;left:15px;}
+.findpwd_table{width:800px;margin:0 0 0 300px;}
+.findpwd_table td{color:#6d869c;font-size:16px;}
+.gaptr td{ height: 40px; line-height: 40px;}
+.pd28 td{ padding-bottom: 28px;}
+.mt30{ margin-top: 30px;}
+.findpwd_win{width:100%;}
+.findpwd_win h3{background:url(../images/reg/nicon.png) no-repeat 55px -163px;font:26px/52px Microsoft yahei;color:#565656;margin:40px 0 20px 0;
+padding-left:120px;}
+.findpwd_win p{margin:10px 15px 10px 95px;color:#646464;font-size:16px; margin-top: 25px;}
+.reg_below_notee{position:absolute;top:2px;font:14px/28px Microsoft yahei;}
+.reg_below_notee span{color:#ff5b5a;}
+/********************end 找回登录（支付）密码**********************/
+
+/********************修改登录（支付）密码**********************/
+.change_tit_rr{text-align:right;width:170px;padding-right:10px;}
+.change_tit_rr span{ color: #ff5b5a;}
+.mt90{ margin-top: 90px;}
+/********************end  修改登录（支付）密码**********************/
+
+/********************完善信息3.2新增**********************/
+.mgtable_text2{color: #646464 !important;font: 16px/38px Microsoft yahei}
+/********编辑供应商信息-银行卡信息********/
+.order_detail_tblist{width:96%;text-align:center; margin:20px 2% 0 2%;}
+.order_detail_tblist th{border-top:1px solid #d8edfe;background:#e7f3ff;height:38px;line-height:38px;color:#60abec;font-weight:normal;font-size:16px;overflow:hidden;}
+.order_detail_tblist td{font-size:14px;height:38px;color:#575757;border:1px solid #e4e4e4;background:#f9f9f9}
+.tblist_pos{position: relative;}
+.tblist_ul{position:absolute;top:40px;left:0; text-align:left;padding:5px 0;border:1px solid #e4e4e4;background: #fff;
+box-shadow:0px 2px 3px #ddd;z-index: 100;}
+.tblist_ul li{font:14px/22px "Microsoft yahei";cursor: pointer;margin-top: 3px;padding:0 10px; color:#343434;}
+.tblist_ul li:hover{color: #54adff;}
+.trash_icon{float:right;margin:10px 33px 0 0;cursor:pointer;}
+.prop_rednote{color:#fe5f5c;font:14px/24px "Microsoft yahei";padding-top: 10px;}
+.edit_tb_input{padding:5px;text-align:center;font:14px "Microsoft yahei";color:#575757;background:#f9f9f9;}
+.edit_noborder_input{width:100%;height:38px;text-align:center;font:14px  "Microsoft yahei";color:#575757;background:#f9f9f9;}
+.spmc{width:164px;}
+.spgg{width:80px;}
+.spfl{width:80px;}
+.sphsdj{width:90px;}
+.spsl{width:80px;}
+.spdw{width:48px;}
+.pbottom50{padding-bottom:50px;}
+.redb{border: 2px solid #ff8e8c;}
+.delete_this_line{width:42px;height:26px; background:url(../images/procurement/opicon.png) no-repeat -15px -1px;cursor:pointer;float: left;}
+.editor_this_line{width:42px;height:26px; background:url(../images/procurement/opicon.png) no-repeat -161px -2px;cursor:pointer;float: left;}
+.save_this_line{width:42px;height:26px; background:url(../images/procurement/opicon.png) no-repeat -62px -1px;cursor:pointer;float: left;}
+.save2_this_line{width:42px;height:26px; background:url(../images/procurement/opicon.png) no-repeat -210px -2px;cursor:pointer;float: left;}
+.add_this_line,.add_this_line2{width:42px;height:26px; background:url(../images/procurement/opicon.png) no-repeat -111px -1px;cursor:pointer;float: left;}
+.layui-layer-content{text-align:center;}
+.select_cata{position:relative;width: 100%;}
+.select_catat{white-space: nowrap; width: 150px;overflow: hidden;text-overflow: ellipsis; font:14px/22px "Microsoft yahei";color:#575757;cursor:pointer;overflow:hidden;height:22px;
+background:url(../images/procurement/slicon_g.png) no-repeat 136px 9px;padding-left: 0px;}
+.select_catac{font:14px/26px "Microsoft yahei";color:#333;background:#FFF;width:132px;text-align:left;padding:0 10px;text-align: center;
+position:absolute;left:-2px;top:31px;z-index:99;border:1px solid #e4e4e4;cursor:pointer;}
+.select_catac li:hover{color:#54adff;}
+.tsp{display: block;float: left;color: #fe5051;font-size: 14px;padding: 10px 0px 0px 15px;}
+.select_catac li{width: 130px;white-space: nowrap; overflow: hidden;text-overflow: ellipsis; text-align: left;}
+/*弹窗样式*/
+.layui-layer{ border:10px solid rgba(0,0,0,0.1); border-radius:5px;}
+.add_pharmacy_tb tr{ height:48px;}
+.add_pharmacy_tb tr td{ font:12px/28px "Microsoft Yahei"; padding-right:5px; color:#646464;}
+.alert_tb_1{height:38px;}
+.alert_tb_1 h3{ line-height:38px; color:#333; text-align:left;border-bottom: 1px solid #ddd;margin: 0 30px;text-align: left;padding:20px 0 0 0;}
+.alert_tb td{ font:12px/28px "Microsoft Yahei";color:#646464;padding:9px 9px 9px 0;overflow:hidden;}
+.input_sms{float:left; width:170px; height:26px; border:1px solid #ddd;padding-left:10px;color:#333;font: 12px/28px "Microsoft Yahei"; }
+.star_red{ color:#e64d4f; font: 12px/28px "Microsoft Yahei"; margin-right:9px;}
+.alert_tb td label{ margin:0 35px 0 19px;}
+.add_invoice_tb tr{ height:48px;}
+.pd12_tr th{padding-bottom:13px;}
+.add_invoice_tb tr td{ color:#666; font: 12px/28px "Microsoft Yahei"; padding-right:15px;}
+.star_red2{ color:#e64d4f; font: 18px/24px "Microsoft Yahei"; margin:0 0 0 9px;}
+.payment{ width:980px; margin:0 auto;}
+.borred0,.borred2{border:1px solid #ea2528 !important; background: url(../images/sindex/so_icon3.png) no-repeat right bottom;}
+.topay_stepul2 li{display:inline;font:12px/76px 'Microsoft Yahei';color:#a5a5a5;margin-left:67px;}
+.topay_stepul2{float:right;width:380px;background:url(../images/topay/step.png) no-repeat center 0;margin-top:35px;}
+.pval{border:2px solid #ea2528 !important; background: url(../images/sindex/so_icon3.png) no-repeat right bottom; width:311px; height:27px;font:12px/27px Microsoft Yahei;color:#646464;cursor:pointer; float:left; margin:10px 0 0 23px; padding-left:5px;}
+.invoice_input{ width:235px; padding:0 73px 0 10px; height:26px; border:2px solid #ddd;  font:12px/26px'Microsoft Yahei'; cursor:pointer;}
+.new_invoice{ color:#69b9ff; font:12px/48px 'Microsoft Yahei';}
+.pos_invoice{ position:relative;}
+.keep_invoice{font:12px/30px 'Microsoft Yahei'; color:#43acff; position:absolute; left:282px; top:0px;}
+.keep_invoice:active{ color:#e4393c;}
+.invoice_box{ position:absolute; left:20px; top:10px;}
+.reg_ntit_p2{position:relative;}
+.reg_ntit_p2 input{border:1px solid #d2d2d2;color:#575757;border-radius:1px;padding:5px 0 5px 10px; float:left; width:230px;}
+.reg_ntit_p2 span{position:absolute;font-size:14px;color:#ccc;top:0px;left:10px;}
+.pp_slt2{border-radius:2px;border:1px solid #d2d2d2;height:28px;padding-left:5px;
+width:80px;font:14px/28px Microsoft yahei;color:#646464; float:left;}
+.fptt i{ color:#ff4545;}
+.mg_wrong {
+    background: url(../images/procurement/wrnicon.png) no-repeat -10px -12px;
+    padding-left: 24px;
+}
+.note_p {
+    color: #ff4545;
+    font: 14px/24px Microsoft yahei;}
+.mg_right {
+    background: url(../images/procurement/wrnicon.png) no-repeat -10px -76px;}
+	
+.upImg_cont{width: 340px;float: left;position: relative;padding-bottom: 10px;}
+.aIupimgBox{width: 162px;float: left;padding-right: 40px;}
+.aIupimg{width: 160px;height: 104px;overflow: hidden;}
+.aIupimg img{height: 100%;}
+.aIupbtn_p{width: 120px;height: 34px;position: relative;float: left; cursor:pointer;}
+.aIupfile{width: 135px;height: 34px;position: absolute;top: 0px;left: 0px;z-index: 999;opacity: 0; filter:alpha(opacity=0);font-size: 26px;overflow: hidden;}
+.aIupbtn{display: block;width: 118px;height: 40px;border-radius: 4px;color: #fff;font: 14px/40px "Microsoft Yahei";text-align: center;}
+.uptips{width: 372px;color: #a9a9a9;font: 12px/16px "Microsoft Yahei";margin-left: 0px;padding: 5px 0px;}
+.disn{display:none;}
+.order_select_p2{width:138px;height:40px;text-align:center;font:16px/40px Microsoft yahei;border-radius:6px;float:left;
+background:#54adff;cursor:pointer;color:#fff;}
+.order_select_p2:hover{background:#3895eb;}
+/*************供应商信息完善**********/
+.fli_a{color: #54adff;font: 14px "Microsoft Yahei";}
+.wt_note_cont {background: #fff url(../images/procurement/tribg_1.png) no-repeat -35px 0px;border: 1px solid #e4f2ff;border-top: 0;padding: 22px 0 9px 13px;border-radius: 0px 0px 6px 6px;color: #878585;margin-top: 4px;box-shadow: 0px 2px 5px #f5f5f5;font-size: 12px; position: absolute;width: 255px;z-index: 9; line-height:20px;}
+.fli_a:hover{text-decoration:underline;}
+
+/*************end 供应商信息完善**********/
+.save_but {padding-left: 5%;text-align: left;}

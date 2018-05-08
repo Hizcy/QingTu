@@ -1,0 +1,268 @@
+@charset "utf-8";
+@import url('common.css');
+.wrapdiv{float: left;padding-right: 20px;}/*表格查询外部div*/
+.pl20{padding-left: 20px !important;}
+.risk_tit{margin:30px 2% 10px 2%;}
+.risk_tit_1200{width:1200px;margin-top:30px;position:relative;}
+.risk_tit h3,.risk_tit_1200 h3{font:600 20px/20px microsoft yahei;color:#6d8398;margin-bottom:20px;}
+.risk_cont{margin:20px 2% 10px 2%;border:1px solid #dbe0e4;background:#fff;border-radius:6px;box-sizing:border-box;}
+.risk_cont_1200{width:1200px;margin:20px auto 10px auto;border:1px solid #dbe0e4;background:#fff;border-radius:6px;box-sizing:border-box;}
+.order_detail_flist{width:96%;text-align:center;margin:0 2% 30px 2%;border:1px solid #ebf5ff;}
+.order_detail_flist th{background:#e7f3ff;height:40px;line-height:40px;color:#60abec;font-weight:normal;font-size:16px;overflow:hidden;}
+.order_detail_flist td{font-size:14px;height:50px;color:#575757;overflow:hidden;}
+.tb_interval{background:#f5f5f5;border-top:1px solid #e1e6eb;}
+.risk_status_tit{width:50px;height:40px;float:left;font:16px/40px Microsoft yahei;color:#6d849d;margin-bottom: 10px;}
+.risk_select{width:160px;height:40px;float:left;position:relative;}
+.risk_select p{background:url(../images/audit/sltbg.png) no-repeat;width:150px;height:40px;font:14px/40px Microsoft yahei;padding-left:10px;
+color:#575757;cursor:pointer;}
+.p_on{background:url(../images/audit/sltbg.png) no-repeat 0 -40px !important;}
+.risk_select ul{position:absolute;left:0;top:40px;width:158px;border:1px solid #79beff;border-top:0;background:#fff;}
+.risk_select ul li{font:14px/27px Microsoft yahei;color:#575757;padding-left:10px;cursor:pointer;}
+.risk_select ul li:hover,.select_on{background:#79beff !important;color:#fff !important;}
+.risk_intit{width:96%;padding:30px 2% 15px 2%;}
+.mo_three_tit{width:70px;height:40px;float:left;font:16px/40px Microsoft yahei;color:#6d849d;margin-bottom:10px;text-align: right;}
+.bc_five_tit{width:100px;height:40px;float:left;font:16px/40px Microsoft yahei;color:#6d849d;margin-bottom:10px;text-align: right;}
+.risk_applay_user{width:85px;height:40px;float:left;font:16px/40px Microsoft yahei;color:#6d849d;margin-bottom:10px;text-align: right;}
+.mo_select{width:80px;height:40px;float:left;position:relative;margin-left:5px;border:1px solid #d2d2d2;border-radius:6px;
+color:#646464;font:14px/40px Microsoft yahei;color:#575757;padding-left:10px;margin-bottom:10px;}
+.moleft20{margin-left:20px;}
+.mo_dateinput{float:left;width:125px;height:20px;padding:10px 0px 10px 10px;background: url(../images/manage/time_inpbg.png) no-repeat;
+font:14px Microsoft yahei;color:#575757;cursor:pointer;margin-bottom:10px;}
+.time_widget{float:left;width:10px;height:2px;background-color:#cbcbcb;margin:19px 5px 0 5px;}
+.risk_inputdiv{width:180px;height:40px;float:left;position:relative;}
+.risk_inputdiv input{width:170px;height:20px;padding:10px 0px 10px 10px;background:url(../images/audit/inpbg.png) no-repeat;font:14px Microsoft yahei;
+color:#575757;}
+.input_on{background:url(../images/audit/inpbg.png) no-repeat 0 -40px !important;}
+.risk_inputdiv span{font:14px/40px Microsoft yahei;color:#ccc;left:10px;position:absolute;top:0px;}
+.risk_sbtn{background:#54adff url(../images/audit/enlargeicon.png) no-repeat 15px 12px;width:85px;height:40px;border-radius:6px;float:left;font:16px Microsoft yahei;color:#fff;padding-left:15px;}
+.risk_sbtn:hover{background:#349eff url(../images/audit/enlargeicon.png) no-repeat 15px 12px;cursor:pointer;}
+.bc_exportbtn{width:75px;height:38px;border:1px solid #38bc32;border-radius:6px;float:right;color:#38bc32;padding-left: 45px;
+background:url(../images/bc/exporticon.png) no-repeat 20px -71px;font:14px/38px Microsoft yahei;cursor:pointer;}
+.bc_exportbtn:hover{background:#38bc32 url(../images/bc/exporticon.png) no-repeat 20px 9px;color:#fff;}
+.span_red{color:#ff6c00;}
+.span_red2{color:#fe5c59;cursor:pointer;}
+.span_red3{color:#fe5c59;}
+.span_blue{color: #54adff;}
+.span_blue2{color: #54adff;cursor:pointer;}
+.span_blue2:hover{text-decoration:underline;}
+.not_allowed{cursor:not-allowed;}
+.span_green{color:#38bc32;}
+.span_colour64{color:#646464;}
+.span_colour90{color:#909090;}
+.span_detail{padding:2px 20px;border:1px solid #54adff;color:#54adff;border-radius: 4px;}
+.span_detail a{color:#54adff;}
+.span_detail:hover a{color:#fff;}
+.span_detail:hover,.span_audit{padding:2px 20px;border:1px solid #54adff;background:#54adff;cursor:pointer;color:#fff;border-radius: 4px;}
+.span_audit a{color:#fff;}
+.pagination_wrap{width:96%;margin:0 2%;padding-bottom:50px;}
+.span_gray{color:#909090;}
+.span_blue_btn{padding:2px 10px;border:1px solid #54adff;color:#54adff;cursor:pointer;border-radius: 4px;}
+.span_blue_btnlg{padding:3px 20px;*+padding:1px 20px 3px 20px;border:1px solid #54adff;color:#54adff;cursor:pointer;border-radius: 4px;}
+.span_blue_btn:hover,.span_blue_btnlg:hover{background:#54adff;color:#fff;}
+.span_red_btn{padding:2px 10px;border:1px solid #ff6c00;color:#ff6c00;cursor:pointer;border-radius: 4px;}
+.span_red_btn:hover{background:#ff6c00;color:#fff;}
+.span_green_btn{padding:2px 10px;border:1px solid #38bc32;color:#38bc32;cursor:pointer;border-radius: 4px;}
+.span_green_btn:hover{background:#38bc32;color:#fff;}
+.span_gray_btn{padding:2px 10px;border:1px solid #ccc;color:#bbb;cursor:pointer;border-radius: 4px;}
+.span_gray_btn:hover{background:#ccc;color:#fff;}
+.span_gray_btn2{padding:2px 10px;border:1px solid #dcdcdc;background:#dcdcdc;color:#fff;border-radius: 4px;
+cursor:not-allowed;}
+.pagination_wrap{width:96%;margin:0 2%;padding-bottom:50px;}
+.p_uptbn{width:100%;height:40px;position:relative;line-height:40px;}
+.p_uptbn input{width:40px;height:30px;position:absolute;top:50%;left:50%;margin:-15px 0 0 -20px;z-index:110;
+opacity:0;filter:alpha(opacity=0);cursor:pointer;}
+.p_uptbn .span_red2:hover{text-decoration:underline;}
+
+/**************************风控-信息更变审核********************************/
+.w112{ width: 112px !important;}
+.mr20{margin-right: 20px;}
+.w170{width: 170px;}
+.extendInfo_select{float:left;height:40px;border:1px solid #d2d2d2;border-radius:6px;color:#646464;font:14px/34px Microsoft yahei;color:#575757;padding:0px 10px;}
+/**************************end 风控-信息更变审核********************************/
+
+
+/*******************************begin 风控审核管理*****************************/
+.imgd{background:#f5f5f5;padding-bottom: 50px;padding-top: 20px;}
+.imgd img{width:80% !important;margin:0 auto;display: block;}
+.risk_intitle{padding:20px 0px 10px 0px;border-bottom: 1px solid #e1e6eb;}
+.risk_intitle_u{padding:20px 0px 0px 0px;}
+.risk_intitle_d{border-bottom: 1px solid #e1e6eb;padding-top:10px;padding-bottom: 10px;}
+.risk_order_sum{width:85px;height:40px;float:left;font:16px/40px Microsoft yahei;color:#6d849d;margin-left:30px;margin-bottom:10px;text-align: right;}
+.risk_inputsum{width:160px;height:40px;float:left;position:relative;}
+.risk_inputsum input{width:150px;height:40px;padding-left:10px;background:url(../images/audit/sltbg2.png) no-repeat;font:14px/40px Microsoft yahei;
+color:#575757;}
+.risk_inputsum span{font:14px/40px Microsoft yahei;color:#ccc;left:10px;position:absolute;top:0px;}
+.inputsum_on{background:url(../images/audit/sltbg2.png) no-repeat 0 -40px !important;}
+.order_zt{height: 34px;padding: 13px 0px 13px 36px;background: #f9f9fa;margin-bottom: 18px;}
+.order_zt span{color:#575757;font:16px/34px Microsoft yahei;float: left; display: block; height: 34px;}
+.order_zt a{ color: #40a4ff;font:16px/34px Microsoft yahei; margin-left: 16px;float: left;display: block;width: 80px;height: 34px;text-align: center;}
+.order_zt a:hover{color: #2296ff;}
+.order_zt_on{ background: #54adff; border-radius: 5px; color: #fff !important;}
+.bc_exportbtn2{width:75px;height:34px;border-radius:6px;float:right;color:#38bc32;padding-left: 45px;margin-right: 2%;
+background: url(../images/bc/exporticon2.png) no-repeat 20px -74px;font:14px/34px Microsoft yahei;cursor:pointer;}
+.bc_exportbtn2:hover{background:#38bc32 url(../images/bc/exporticon2.png) no-repeat 20px 8px;color:#fff;}
+.ordermg_table{width:96%;text-align:center;margin:0 2% 30px 2%;border:1px solid #ebf5ff;}
+.ordermg_table th{background:#e7f3ff;height:40px;line-height:18px;color:#60abec;font-weight:normal;font-size:14px;overflow:hidden;}
+.ordermg_table td{font-size:14px;color:#575757;line-height:22px;padding:10px 5px;word-break:break-all;}
+.btnsize{padding: 2px 24px !important;}
+.pl30{padding-left:30px;}
+.fk_select{width:156px;height:40px;color: #6d849d;font:16px/34px Microsoft yahei;float:left;border:1px solid #d2d2d2;border-radius:6px;padding-left:10px;}
+.ml{margin-left:19px;}
+.span_status_w{padding:2px 9px 1px 9px;background:url(../images/audit/wricon.png) no-repeat -9px -10px;}
+.span_status_r{padding:2px 9px 1px 9px;background:url(../images/audit/wricon.png) no-repeat -9px -48px;}
+.span_ac_k{background:url(../images/reg/sicon.png) no-repeat 0px 2px;padding-left:22px;cursor:pointer;}
+.ac_k_on{background:url(../images/reg/sicon.png) no-repeat 0px -55px !important;color:#54adff !important;}
+.span_ackbg{background:none !important;padding-left:0px !important;}
+.p_panel{width:143px;height:67px;background:url(../images/audit/rect.png) no-repeat;position:absolute;
+top:50%;left:50%;margin:10px 0 0 -22px;z-index:10;font:14px/67px Microsoft yahei;color:#646464;display:none;}
+
+/*******************************end 风控审核管理*****************************/
+
+/*******************************begin 风控财务对账管理*****************************/
+.fk_dz_em{color:#6d849d;font-style:normal;float: left; display: block; height: 34px;line-height:34px;}
+.fk_dz_em b{color:#ff5b5a;}
+.fkleft20{margin-left:20px;}
+.fkleft50{margin-left:50px;}
+
+/*******************************end 风控财务对账管理*****************************/
+
+/*******************************风控-取款银行卡变更/操作人电话变更/详情*****************************/
+.h50{height: 50px;}
+.h72{height: 72px;}
+.pl50{padding-left: 50px;}
+.vtop{vertical-align: top;}
+.bankcg{width:1018px;margin-left: 90px;}
+.bankcg_tit{color: #6d869c;font: 14px/30px Microsoft yahei;text-align: right;}
+.bankcg_text{color: #747474;font: 14px/30px Microsoft yahei;padding-left: 50px;}
+.gap31 td{padding-top: 15px;padding-bottom: 16px;border-bottom: 1px solid #f6f6f6;}
+.gap26 td{padding-top: 26px;}
+.nopass{color:#575757;font: 14px/30px Microsoft yahei;padding-left:22px;cursor:pointer;background:url(../images/reg/sicon.png) no-repeat -2px -242px;}
+.nopass_in{background:url(../images/reg/sicon.png) no-repeat -2px -55px !important;}
+.autextarea{width: 608px;height: 100px;border: 1px solid #d2d2d2;color: #747474;font: 14px Microsoft yahei;padding: 10px 0px 0px 10px;}
+.auditBtndiv{margin: 30px 0px 0px 450px;}
+.auditBtn{background: url(../images/procurement/combtn.png) no-repeat -290px -47px;width: 183px;padding-bottom: 8px;height: 47px;font: 18px Microsoft yahei;font-weight: 600;color: #fff;cursor: pointer;}
+.details_bg1{width: 1144px;height: 2px;background: url(../images/audit/details_bg1.png) no-repeat;margin-top: 30px;}
+.details_bg2{width: 1144px;background: url(../images/audit/details_bg2.png) repeat-y;}
+.details_bg3{width: 1144px;height: 2px;background: url(../images/audit/details_bg3.png) no-repeat;margin-bottom: 44px;}
+.bankcg2{width:1018px;margin: 0 auto;}
+/*******************************end 风控-取款银行卡变更/操作人电话变更*****************************/
+
+/************************风控-开户审核详情页***************************/
+.titTips{color: #6d849d;font:14px Microsoft yahei;margin-top:-10px;}
+.titTips span{color: #ff5b5a;}
+.fk_fktb{width:1000px;margin:20px 0 50px 98px;}
+.fk_fktb td{height:56px;font:16px/56px Microsoft yahei;color:#747474;padding:0 10px;border-bottom:1px solid #f6f6f6;}
+.fk_fktb td span{font-size:14px;color:#6d869c;}
+.fktb_trr{text-align:right;width:140px;}
+.fk_pfedit{position:absolute;top:10px;right:0;width:120px;height:40px;border:1px solid #54adff;border-radius:4px;color:#fff;
+background:#54adff url(../images/audit/opicon.png) no-repeat 30px -172px;padding:0 0 2px 36px;cursor:pointer;z-index:9;}
+.fk_pfedit:hover{background:#3b9bf3 url(../images/audit/opicon.png) no-repeat 30px -172px;}
+.fk_pfsave{position:absolute;top:10px;right:0;width:120px;height:40px;border:1px solid #54adff;border-radius:4px;color:#fff;
+background:#54adff url(../images/audit/opicon.png) no-repeat 30px -52px;padding:0 0 2px 36px;cursor:pointer;z-index:8;}
+.fk_pfsave:hover{background:#3b9bf3 url(../images/audit/opicon.png) no-repeat 30px -52px;}
+.fk_pfcanel{position:absolute;top:10px;right:0;width:120px;height:40px;border:1px solid #54adff;border-radius:4px;
+color:#54adff;background:#fff url(../images/audit/cancelicon.png) no-repeat 20px 0px;padding:0 0 2px 36px;cursor:pointer;z-index:8;}
+.fk_pfcanel:hover{background:#54adff url(../images/audit/cancelicon.png) no-repeat 20px -47px;color:#fff;}
+.fk_pf_tb{width:1020px;margin:20px 0 50px 88px;}
+.fk_pf_tb td{font:16px Microsoft yahei;color:#747474;padding:10px 5px;border-bottom:1px solid #f6f6f6;}
+.fk_pf_tb td span{font-size:14px;color:#6d869c;}
+.upload_btn{width:122px;height:20px;background:url(../images/reg/graybtn.png) no-repeat;text-align:center;padding: 12px 0px;
+font:14px Microsoft yahei;color:#6d869c;cursor:pointer;margin-left:20px;}
+.upload_btn:hover{background:url(../images/reg/graybtn.png) no-repeat 0 -44px;}
+.upload_ff{width:122px;height:44px;position:absolute;top:30px;left:30px;opacity:0;filter:alpha(opacity=0);cursor:pointer;}
+.pfb_rr150{text-align:right;width:150px;}
+.edit_input{font:16px Microsoft yahei;color:#747474;padding:10px 0 10px 10px;width:300px;margin-top:2px;}
+.edit_on{border:1px solid #d2d2d2;border-radius:4px;}
+.edit_select{height: 42px; line-height:38px; border:1px solid #d2d2d2;border-radius:4px;padding:8px 0 8px 10px;color:#747474;float:left;
+*+margin-top:12px;margin-top:2px;}
+.daddr_p{font:16px Microsoft yahei;color:#747474;padding:10px 0 10px 10px;}
+.mlr10{margin-left: 10px;margin-right: 10px;}
+.mr10{margin-right: 10px;}
+.ml4{margin-left: 4px;}
+.photo img{width:120px;height:80px;cursor:pointer;}
+.supcont{width: 866px;margin: 30px 0 30px 180px;}
+.supcont td{padding:10px 0 15px 0;}
+.supcont_tit{color: #6d869c;font: 16px/40px Microsoft yahei;text-align: right;padding-right: 26px;}
+.supcont_tit em{color: #ff5b5a;font-style: normal;}
+.supcont_posd{padding-bottom:20px;}
+.supcont_posd2{padding-bottom:0px;}
+.suppcont_ph{color:#646464;margin:6px 0 0 8px;line-height:28px;}
+.yy_a{color: #747474;font: 16px/40px Microsoft yahei;padding-left: 7px;margin-right: 40px;float: left;vertical-align:middle;}
+.posd_chb{margin:14px 0px 0 0;float:left;}
+.yy_aon{background: url(../images/reg/sicon.png) no-repeat 0px -150px !important;}
+.yyTit{color: #747474;font: 16px/40px Microsoft yahei;float: left;}
+.yyInput{width:110px;height:20px;border: 1px solid #d2d2d2;border-radius: 6px;color: #747474;
+font: 16px/20px Microsoft yahei;float: left;padding: 10px 0px 10px 5px;}
+.yyEm{color: #747474;font: 16px/40px Microsoft yahei;float: left;margin: 0px 9px;font-style: normal;}
+.supcont_textarea{border:1px solid #d2d2d2;width:700px;height:110px;}
+.supcont_select{border:1px solid #d2d2d2;font:16px/42px Microsoft yahei;color: #747474;height:42px;width:160px;
+border-radius:5px;float:left;}
+.supcont_ttit{float:left;width:80px;height:40px;float:left;color: #6d869c;font: 16px/40px Microsoft yahei;margin-left:50px;}
+.risk_cont_nobg{width:1200px;margin:30px auto;}
+.cf_sbtn{background:url(../images/procurement/combtn.png) no-repeat -290px -47px;width:183px;padding-bottom:8px;
+height:47px;font:18px Microsoft yahei;font-weight:600;color:#fff;cursor:pointer;margin-left:400px;}
+.cf_sbtn:hover{background:url(../images/procurement/combtn.png) no-repeat -290px -210px;}
+.cf_sbtn_gray{background:url(../images/reg/retbtn.png) no-repeat 0px 0px;width:183px;margin-left:28px;float:left;
+height:47px;font:18px/42px Microsoft yahei;font-weight:600;color:#b2b2b2;text-align:center;}
+.cf_sbtn_gray:hover{background:url(../images/reg/retbtn.png) no-repeat 0px -47px;cursor:pointer;}
+
+.mn_pinput{position:relative;width:370px;height:52px;margin:15px 0 0 40px;}
+.mn_pinput textarea{height:78px;border:1px solid #d2d2d2;color:#6d869c;border-radius:6px;padding-left:10px;width:368px;
+font:14px/26px Microsoft yahei;}
+.mn_pinput span{position:absolute;font-size:14px;color:#ccc;top:9px;left:15px;}
+.mn_addmenu{padding-bottom:15px;}
+.mn_tit{font:18px/46px Microsoft yahei;border-bottom:1px solid #ddd;padding-left:20px;background:#f5f5f5;}
+.mn_blank10{width:100%;height:10px;}
+.mn_note{font:14px/26px Microsoft yahei;margin-left:40px;color:#ff5b5a;margin-top:5px;}
+.photo_bg{background:#000;opacity:0.2;filter:alpha(opacity=20);position:fixed;left:0;top:0;width:100%;height:100%;z-index:99;}
+.photo_big{width:700px;height:400px;border:10px solid #edf0f5;border-radius:5px;overflow:hidden;
+position:fixed;left:50%;top:50%;margin:-200px 0 0 -350px;z-index:100; }
+.photo_big img{width:700px;height:400px}
+
+
+/************************end 风控-开户审核详情页***************************/
+
+
+/*******************************风控-首营资质审核-123*****************************/
+.ml20{margin-left: 20px;}
+.ml50{margin-left: 50px;}
+.ml90{margin-left: 90px;}
+.w350{width: 350px !important;}
+.shouying_tit{width: 794px;height: 61px;padding-top: 28px;padding-bottom: 57px;}
+.syTit1{background: url(../images/audit/syTit1.png) no-repeat 0px 28px;}
+.syTit2{background: url(../images/audit/syTit2.png) no-repeat 0px 28px;}
+.syTit3{background: url(../images/audit/syTit3.png) no-repeat 0px 28px;}
+.sytable{width: 814px;margin: 0 auto;}
+.sytable tr td{padding-bottom: 22px;}
+.syTit{color: #6d869c;font:16px/40px Microsoft yahei;padding-right: 17px;}
+.syInput{width:338px;height:20px;border: 1px solid #d2d2d2;border-radius: 6px;padding: 9px 0px 9px 10px;color: #646464;font:14px/20px Microsoft yahei;}
+.syBiscount{color: #646464;font:14px/40px Microsoft yahei;}
+.syboxt{width: 1004px;height: 2px;background: url(../images/audit/sybox1.png) no-repeat;margin-top: 18px;}
+.syboxc{width: 1004px;background: url(../images/audit/sybox2.png) repeat-y;height: 100px;}
+.syboxp{width: 1004px;height: 2px;background: url(../images/audit/sybox3.png) no-repeat;}
+.sy_select{width:156px;height:40px;color: #575757;font:14px/34px Microsoft yahei;float:left;border:1px solid #d2d2d2;
+border-radius:6px;padding-left:10px;}
+.syexchange{color:#6d849d;font: 16px/40px Microsoft yahei;padding-left:32px;cursor:pointer;background:url(../images/reg/sicon.png) no-repeat 2px -232px;}
+.syexchange_in{background:url(../images/reg/sicon.png) no-repeat 2px -45px !important;}
+.sycont_tit{color: #6d869c;font:16px/40px Microsoft yahei;}
+.eduInput input{width:146px;height:38px;border: 1px solid #d2d2d2;border-radius: 6px;color: #6d869c;font:16px/38px Microsoft yahei;padding-left: 8px;}
+.eduInput span{color: #6d869c;font:16px/40px Microsoft yahei;margin-left: 2px;}
+.sy_auditBtndiv{margin: 42px 0px 0px 505px;}
+/*2*/
+.reg_upload{margin: 0px 0 0 300px !important;}
+.reg_blank40{width:100%;height:40px;}
+/*3*/
+.w580{width: 580px;}
+.m390{margin: 0px 0px 0px 390px !important;}
+.note_p {color: #ff4545;font: 14px/24px Microsoft yahei;padding-left: 20px;}
+.mg_right{background:url(../images/procurement/wrnicon.png) no-repeat -10px -76px;}
+.mg_wrong{background:url(../images/procurement/wrnicon.png) no-repeat -10px -12px;padding-left:24px;}
+.gou_jh{float:left;margin-left: 94px;width: 140px;}
+.bc_right{background:url(../images/procurement/wrnicon.png) no-repeat -10px -79px;}
+.bc_wrong{background:url(../images/procurement/wrnicon.png) no-repeat -10px -12px;padding-left:24px;}
+.infotips p{margin-top: 4px;}
+.gou_zz{float:left;margin-left: 12px;width: 140px;}
+.gou_js{float:left;margin-left: 41px;width: 140px;}
+.gou_zq{float:left;margin-left: 92px;width: 140px;}
+.gou_ed{float:left;margin-left: 92px;width: 140px;}
+/*******************************end 风控-首营资质审核-123*****************************/

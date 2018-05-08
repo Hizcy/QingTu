@@ -1,34 +1,25 @@
-﻿
-
-<!DOCTYPE html>
+﻿ <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - 轻图后台管理系统</title>
     <link href="~/Content/business.css" rel="stylesheet" />
-    <link href="~/Scripts/layui/css/layui.css" rel="stylesheet" />
-    <link href="~/Content/layer-button2.css" rel="stylesheet" />
+    <link href="~/js/layui/css/layui.css" rel="stylesheet" /> 
+    @RenderSection("Head", false)
 </head>
 <body>
 
     <div class="index_header clearfloat">
         <p class="index_logo"><img src="images/main/logo.png"></p>
         <p class="headnav headnav2"><a href="#" class="hnav2">退出</a></p>
-        <p class="headnav headnav1"><a href="#" class="hnav1">帮助中心</a></p>
         <p class="index_welcomes">用户<span>15639265669</span>，欢迎登录！</p>
     </div>
     <div class="index_sidebar" id="sidebar">
-        <p class="side side_on mtbr"><a href="#" class="side_a_on side0 side0_on">商户中心</a></p>
-        <p class="side"><a href="#" class="side1">发布预采单</a></p>
-        <p class="side"><a href="#" class="side2">全部预采单</a></p>
-        <p class="side"><a href="#" class="side3">销售订单</a></p>
-        <p class="side"><a href="#" class="side4">采购订单</a></p>
-        <p class="side"><a href="#" class="side5">供应商维护</a></p>
-        <p class="side"><a href="#" class="side6">充值</a></p>
-        <p class="side"><a href="#" class="side7">提现</a></p>
-        <p class="side"><a href="#" class="side8">资金管理</a></p>
-        <p class="side"><a href="#" class="side9">渠道管理</a></p>
+        <p class="side side_on mtbr"><a href="/UserAudit/Index" class="side_a_on side0 side0_on">专栏作者</a></p>
+        <p class="side"><a href="#" class="side1">图文内容</a></p>
+        <p class="side"><a href="#" class="side2">关注用户</a></p>
+        <p class="side"><a href="#" class="side3">交易记录</a></p> 
     </div>
 
     <div class="content">
@@ -36,9 +27,9 @@
     </div>
 
     <div class="footer"><p class="cp_p">Copyright @DateTime.Now.Year - 技术支持：轻赢团队 Application </p></div>
-    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
-    <script src="~/Scripts/layui/layui.js"></script>
-    <script src="~/Scripts/index.js"></script>
-    <script src="~/Scripts/bc_ordermg.js"></script> 
+    <script src="~/js/jquery-1.8.0.min.js"></script>
+    <script src="~/js/layui/layui.js"></script> 
+    <script src="~/js/index.js"></script>
+    @RenderSection("Foot", false)
 </body>
 </html>

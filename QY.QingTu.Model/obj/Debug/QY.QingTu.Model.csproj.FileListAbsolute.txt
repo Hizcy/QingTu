@@ -1,0 +1,6 @@
+D:\LightMap\QingTu\QY.QingTu.Model\bin\Debug\QY.QingTu.Model.dll
+D:\LightMap\QingTu\QY.QingTu.Model\bin\Debug\QY.QingTu.Model.pdb
+D:\LightMap\QingTu\QY.QingTu.Model\obj\Debug\QY.QingTu.Model.csproj.CoreCompileInputs.cache
+D:\LightMap\QingTu\QY.QingTu.Model\obj\Debug\QY.QingTu.Model.dll
+D:\LightMap\QingTu\QY.QingTu.Model\obj\Debug\QY.QingTu.Model.pdb
+D:\LightMap\QingTu\QY.QingTu.Model\obj\Debug\QY.QingTu.Model.csprojResolveAssemblyReference.cache

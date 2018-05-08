@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="QY.DBUtlity">
+      <HintPath>..\..\..\Code\QY.DBUtility\QY.DBUtlity\bin\Debug\QY.DBUtlity.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,11 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DB\CategoryRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DB\" />
     <Folder Include="ExtDB\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QY.QingTu.IDAL\QY.QingTu.IDAL.csproj">
+      <Project>{844985e2-d9c3-4a73-8d15-9dbfa28b6d2e}</Project>
+      <Name>QY.QingTu.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QY.QingTu.Model\QY.QingTu.Model.csproj">
+      <Project>{bfe3bb89-d8d7-4783-9e1d-cf65959786be}</Project>
+      <Name>QY.QingTu.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

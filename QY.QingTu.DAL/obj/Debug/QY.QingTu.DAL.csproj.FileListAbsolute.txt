@@ -1,0 +1,15 @@
+D:\LightMap\QingTu\QY.QingTu.DAL\bin\Debug\QY.QingTu.DAL.dll
+D:\LightMap\QingTu\QY.QingTu.DAL\bin\Debug\QY.QingTu.DAL.pdb
+D:\LightMap\QingTu\QY.QingTu.DAL\obj\Debug\QY.QingTu.DAL.csprojResolveAssemblyReference.cache
+D:\LightMap\QingTu\QY.QingTu.DAL\obj\Debug\QY.QingTu.DAL.csproj.CoreCompileInputs.cache
+D:\LightMap\QingTu\QY.QingTu.DAL\obj\Debug\QY.QingTu.DAL.dll
+D:\LightMap\QingTu\QY.QingTu.DAL\obj\Debug\QY.QingTu.DAL.pdb
+D:\LightMap\QingTu\QY.QingTu.DAL\bin\Debug\QY.DBUtlity.dll
+D:\LightMap\QingTu\QY.QingTu.DAL\bin\Debug\QY.QingTu.IDAL.dll
+D:\LightMap\QingTu\QY.QingTu.DAL\bin\Debug\QY.QingTu.Model.dll
+D:\LightMap\QingTu\QY.QingTu.DAL\bin\Debug\Newtonsoft.Json.dll
+D:\LightMap\QingTu\QY.QingTu.DAL\bin\Debug\QY.QingTu.IDAL.pdb
+D:\LightMap\QingTu\QY.QingTu.DAL\bin\Debug\QY.QingTu.Model.pdb
+D:\LightMap\QingTu\QY.QingTu.DAL\bin\Debug\QY.DBUtlity.pdb
+D:\LightMap\QingTu\QY.QingTu.DAL\bin\Debug\Newtonsoft.Json.xml
+D:\LightMap\QingTu\QY.QingTu.DAL\obj\Debug\QY.QingTu.DAL.csproj.CopyComplete

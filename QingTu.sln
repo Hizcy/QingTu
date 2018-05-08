@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QY.QingTu.DAL", "QY.QingTu.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QY.QingTu.IDAL", "QY.QingTu.IDAL\QY.QingTu.IDAL.csproj", "{844985E2-D9C3-4A73-8D15-9DBFA28B6D2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QY.QingTu.Model", "QY.QingTu.Model\QY.QingTu.Model.csproj", "{BFE3BB89-D8D7-4783-9E1D-CF65959786BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{844985E2-D9C3-4A73-8D15-9DBFA28B6D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{844985E2-D9C3-4A73-8D15-9DBFA28B6D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{844985E2-D9C3-4A73-8D15-9DBFA28B6D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE3BB89-D8D7-4783-9E1D-CF65959786BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE3BB89-D8D7-4783-9E1D-CF65959786BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE3BB89-D8D7-4783-9E1D-CF65959786BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE3BB89-D8D7-4783-9E1D-CF65959786BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

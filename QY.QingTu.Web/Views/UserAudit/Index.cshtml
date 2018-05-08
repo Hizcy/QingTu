@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewBag.Title = "专栏作者";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Head{
+    <link href="~/css/fn.css" rel="stylesheet" />
+    <link href="~/css/layer-button2.css" rel="stylesheet" />
+}
+<div class="risk_tit">
+    <h3>专栏作者管理</h3>
+</div>
+<div class="risk_cont">
+    <div class="risk_intit clearfloat"> 
+        <div class="wrapdiv">
+            <div class="risk_applay_user" style="margin-left:0">专栏作者：</div>
+            <div class="risk_inputdiv supplier">
+                <input type="text" class="risk_input" maxlength="50" />
+                <span>请输入专栏作者名字</span>
+            </div>
+        </div>
+        <div class="wrapdiv">
+            <p class="risk_applay_user">申请时间：</p>
+            <input type="text" id="LAY_demorange_s" class="mo_dateinput" />
+            <p class="time_widget"></p>
+            <input type="text" id="LAY_demorange_e" class="mo_dateinput" />
+        </div>
+        <div class="wrapdiv">
+            <div class="risk_applay_user">审核状态：</div>
+            <select class="mo_select">
+                <option>全部</option>
+                <option>待审</option>
+                <option>通过</option>
+                <option>未通过</option>
+            </select>
+        </div>
+        <input type="submit" class="risk_sbtn" value="查询" />
+    </div>
+    <table class="order_detail_flist">
+        <tr>
+            <th width="15%">真实姓名</th>
+            <th width="15%">头像</th>
+            <th width="15%">手机号</th>
+            <th width="15%">邮箱</th>
+            <th width="15%">申请时间</th>
+            <th width="15%">审核状态</th>  
+            <th width="10%">操作</th>
+        </tr>
+        <tr>
+            <td>So1312fv132</td>
+            <td><span class="span_gray">2016-10-12<br />10:10:10</span></td>
+            <td>济南生命有限公司</td>
+            <td>山东豪诺医药物流</td>
+            <td>公司网银</td>
+            <td>苏宁易购</td>
+            <td><span class="span_blue_btn">通过</span><span class="span_blue_btn">拒绝</span></td>
+        </tr>
+        
+    </table>
+    <div class="pagination_wrap">
+        <div class="pagination clearfloat">
+            <p>GO</p>
+            <input type="text">
+            <ul>
+                <li class="pagef jin"><a href="#"><img src="~/images/main/previous.png"></a></li>
+                <li class="page_on"><a href="#">1</a></li>
+                <li><a href="#">2</a></li> 
+                <li><a href="#"><img src="~/images/main/next.png" /></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+@section Foot{
+    <script src="~/js/placeholder.js"></script>
+    <script src="~/js/fn_auditpay.js"></script> 
+}

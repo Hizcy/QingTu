@@ -1,0 +1,11 @@
+D:\LightMap\QingTu\QY.QingTu.IDAL\bin\Debug\QY.QingTu.IDAL.dll
+D:\LightMap\QingTu\QY.QingTu.IDAL\bin\Debug\QY.QingTu.IDAL.pdb
+D:\LightMap\QingTu\QY.QingTu.IDAL\bin\Debug\QY.DBUtlity.dll
+D:\LightMap\QingTu\QY.QingTu.IDAL\bin\Debug\Newtonsoft.Json.dll
+D:\LightMap\QingTu\QY.QingTu.IDAL\bin\Debug\QY.DBUtlity.pdb
+D:\LightMap\QingTu\QY.QingTu.IDAL\bin\Debug\Newtonsoft.Json.xml
+D:\LightMap\QingTu\QY.QingTu.IDAL\obj\Debug\QY.QingTu.IDAL.csprojResolveAssemblyReference.cache
+D:\LightMap\QingTu\QY.QingTu.IDAL\obj\Debug\QY.QingTu.IDAL.csproj.CoreCompileInputs.cache
+D:\LightMap\QingTu\QY.QingTu.IDAL\obj\Debug\QY.QingTu.IDAL.csproj.CopyComplete
+D:\LightMap\QingTu\QY.QingTu.IDAL\obj\Debug\QY.QingTu.IDAL.dll
+D:\LightMap\QingTu\QY.QingTu.IDAL\obj\Debug\QY.QingTu.IDAL.pdb

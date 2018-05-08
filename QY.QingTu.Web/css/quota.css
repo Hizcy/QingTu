@@ -1,0 +1,48 @@
+@charset "utf-8";
+@import url('common.css');
+
+/************配额详情************/
+.layer_hint {text-align: center;font: 14px/20px "Microsoft yahei";color: #646464;margin-top: 40px;}pile
+.wrapdiv{float: left;padding-right: 20px;}/*表格查询外部div*/
+.mo_three_tit{margin-left: 40px;height:40px;float:left;font:16px/40px Microsoft yahei;color:#6d849d;margin-bottom:10px;text-align: left;}
+.bc_five_tit{width:100px;height:40px;float:left;font:16px/40px "Microsoft yahei";color:#6d849d;margin-bottom:10px;text-align: right;}
+.moleft20{margin-left:20px;}
+.risk_applay_user{width:85px;height:40px;float:left;font:16px/40px "Microsoft yahei";color:#6d849d;margin-bottom:10px;text-align: right;}
+.risk_tit{margin:30px 2% 10px 2%; position:relative;}
+.risk_tit h3{font:600 20px/20px "Microsoft yahei";color:#6d8398;}
+.risk_cont{margin:20px 2% 0px 2%;border:1px solid #dbe0e4;background:#fff;border-radius:6px;box-sizing:border-box;position:relative;}
+.risk_intitle{margin:20px 0px 0px 0px;border-bottom: 1px solid #e1e6eb;padding-bottom: 10px;}
+.ordermg_table{width:96%;text-align:center;margin:20px 2% 30px 2%;border:1px solid #ebf5ff;}
+.ordermg_table th{background:#e7f3ff;height:40px;line-height:40px;color:#60abec;font-weight:normal;font-size:16px;overflow:hidden;}
+.ordermg_table td{font-size:14px;color:#575757;overflow:hidden;line-height:22px;padding:14px 5px;word-break:break-all;}
+.btnsize{padding: 2px 24px !important;}
+.risk_inputdiv{font: 16px/40px "Microsoft Yahei";color:#656565;height:40px;float:left;position:relative;}
+.input_on{background:url(../images/audit/inpbg.png) no-repeat 0 -40px !important;}
+.risk_inputdiv span{font:14px/40px "Microsoft yahei";color:#656565;left:10px;top:0px;}
+.add_supplier_p{float:right;line-height:49px;color:#ff822a;font-size:16px;padding-right:20px;}
+.add_supplier_p a{color:#ff822a;text-decoration:underline;}
+.add_supplier_p a:hover{color:#ff822a;text-decoration:underline;}
+.see{font: 14px/40px "Microsoft Yahei"; color:#54adff;text-decoration:underline; float:left;}
+.see:hover{color:#54adff !important;text-decoration:underline;}
+.phone{width: 100px !important;}
+.phone span{font: 16px/40px "Microsoft Yahei";color: #656565;}
+
+.threeS{position: relative;}
+.select1{border:1px solid #e4e4e4 !important;width: 165px !important;}
+.wrong_note{padding: 20px 20px;color: #656565;}
+
+/*.details{width: 92%;}*/
+.span_gray_i{ margin-left:10px; color:#54b6ff; cursor:pointer;}
+.disn{ display:none;}
+.td_bg{ background:#fff !important;}
+/***************eng 配额详情*************/
+.span_red {color: #ff6c00 !important;}
+.span_green {color: #38bc32 !important;}
+
+.risk_intit{width: 96%;padding: 30px 2% 15px 2%;}
+.extendInfo_select{width: 240px; float: left;height: 40px;border: 1px solid #d2d2d2;border-radius: 6px;font: 14px/34px Microsoft yahei;color: #575757;padding: 0px 10px;}
+.risk_sbtn{background: #54adff url(../images/audit/enlargeicon.png) no-repeat 15px 12px;width: 85px;height: 40px;border-radius: 6px;float: left;font: 16px/40px Microsoft yahei;color: #fff;padding-left: 15px;margin-left: 20px;cursor: pointer;}
+.pagination_wrap {width: 96%;margin: 0 2%;padding-bottom: 50px;}
+.risk_sbtn2{background: #54adff;width: 120px;height: 40px;border-radius: 6px;float: left;font: 16px/40px Microsoft yahei;color: #fff;margin-left: 20px;cursor: pointer;}
+.risk_intit p{float: left;font:600 18px/40px "microsoft yahei";color: #6d849d;margin-right: 60px;}
+.risk_intit p span{color: #60abec;font: 18px/40px "microsoft yahei";}

@@ -1,0 +1,5 @@
+D:\LightMap\QingTu\QY.QingTu.IBLL\bin\Debug\QY.QingTu.IBLL.dll
+D:\LightMap\QingTu\QY.QingTu.IBLL\bin\Debug\QY.QingTu.IBLL.pdb
+D:\LightMap\QingTu\QY.QingTu.IBLL\obj\Debug\QY.QingTu.IBLL.csproj.CoreCompileInputs.cache
+D:\LightMap\QingTu\QY.QingTu.IBLL\obj\Debug\QY.QingTu.IBLL.dll
+D:\LightMap\QingTu\QY.QingTu.IBLL\obj\Debug\QY.QingTu.IBLL.pdb

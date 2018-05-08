@@ -1,0 +1,11 @@
+/* CSS Document */
+.release{ font:36px/100px "Microsoft yahei"; font-weight:bold; text-align:center; color:#ff4847; background:url(../images/release_bg.png) no-repeat bottom center;}
+.release_pay_l{ font:16px/58px "Microsoft yahei"; color:#61aaef; margin-left:37px; float:left;}
+.release_pay_r{ font:18px/58px "Microsoft yahei"; color:#6d849d; margin-right:38px; float:right; font-weight:bold;}
+.release_pay_r span{ color:#ff4847 !important; margin-left:10px;}
+.release_b{ float:right; margin:0 38px 15px 0;}
+.release_b p{ font:16px/32px "Microsoft yahei"; color:#6d849d;}
+.release_b1 span{ color:#ff4847 !important; margin-left:18px;}
+.release_b2 span{ color:#ff731f !important; margin-left:18px;}
+.release_b3 span{ color:#61aaef !important; margin-left:18px;}
+.release_b4 span{ color:#858585 !important; margin-left:18px;}
